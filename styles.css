@@ -1,0 +1,92 @@
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #160903;
+    color: #8d8c8e;
+    font-family: serif;
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.site-header {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.logo a {
+    color: #8d8c8e;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navbar {
+    margin-top: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
+
+.nav-list a {
+    color: #8d8c8e;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 14px;
+    border: 1px solid #8d8c8e;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.nav-list a:hover {
+    background: #8d8c8e;
+    color: #160903;
+}
+
+.nav-list .active {
+    background: #8d8c8e;
+    color: #160903;
+}
+
+.page-content {
+    margin-top: 40px;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8d8c8e;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #8d8c8e;
+}
+
+.main-content {
+    background-color: #8d8c8e;
+    padding: 20px;
+}
+
+.main-content p {
+    color: #160903;
+}
