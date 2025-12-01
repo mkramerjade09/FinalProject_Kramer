@@ -1,0 +1,54 @@
+.plant-page {
+    margin-top: 40px;
+    background-color: #8d8c8e;
+    padding: 30px;
+    border-radius: 10px;
+    color: #160903;
+}
+
+.plant-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #160903;
+}
+
+.plant-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.plant-text {
+    flex: 1;
+}
+
+.plant-description {
+    font-size: 18px;
+    color: #160903;
+    line-height: 1.6;
+}
+
+.plant-image {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.local-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    background-color: #160903; 
+}
+.local-nav img {
+    width: 80px;       
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.local-nav img:hover {
+    transform: scale(1.1);
+}

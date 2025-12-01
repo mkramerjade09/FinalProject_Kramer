@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Plant 4</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <header>
-            <h1><a href="index.html">Plant Dictionary</a></h1>
-            <h2>Plant 4</h2>
-            <nav>
-                <ul>
-                    <li>
-                        <a>Plants</a>
-                    </li>
-                    <ul>
-                        <li>
-                            <a href="plantone.html">Plant 1</a>
-                        </li>
-                        <li>
-                            <a href="planttwo.html">Plant 2</a>
-                        </li>
-                        <li>
-                            <a href="plantthree.html">Plant 3</a>
-                        </li>
-                        <li>
-                            <a href="plantfour.html">Plant 4</a>
-                        </li>
-                        <li>
-                            <a href="plantfive.html">Plant 5</a>
-                        </li>
-                    </ul>
-                    <li>
-                        <a href="about.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="cited.html">Cited</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Name</title>
+     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="styles-plant.css" rel="stylesheet" type="text/css">
+</head>
 
-        </main>
-        <footer>
+<body>
+<div class="wrapper">
 
-        </footer>
-    </body>
+    <header class="site-header">
+        <h1 class="logo">
+            <a href="index.html">Plant Dictionary</a>
+        </h1>
+
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cited.html">Cited</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <nav class="local-nav">
+            <a href="plantone.html">
+                <img src="images/belladonna-02.png" alt="Belladonna">
+            </a>
+
+            <a href="planttwo.html">
+                <img src="images/lemon-balm-01.png" alt="Lemon Balm">
+            </a>
+
+            <a href="plantthree.html">
+                <img src="images/cham-03.png" alt="Chamomile">
+            </a>
+
+            <a href="plantfour.html">
+                <img src="images/echin-04.png" alt="Echinacea">
+            </a>
+
+            <a href="plantfive.html">
+                <img src="images/lav-05.png" alt="Lavender">
+            </a>
+        </nav>
+
+    <main class="page-content">
+
+        <section class="plant-page">
+
+            <h2 class="plant-title">Echinacea</h2>
+
+            <div class="plant-content">
+                <div class="plant-text">
+                    <p class="plant-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Belladonna is a historic plant known for both its medicinal 
+                        and toxic properties. Suspendisse potenti. Quisque vitae 
+                        tellus sit amet quam laoreet consequat. Vestibulum blandit 
+                        neque non nisi porta, vitae pretium ligula dapibus.
+                    </p>
+                </div>
+                <img src="images/echin-04.png" alt="Echinacea Plant" class="plant-image">
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+</body>
 </html>
