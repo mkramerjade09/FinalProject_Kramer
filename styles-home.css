@@ -5,6 +5,13 @@ html {
     box-sizing: border-box;
     background-color: #160903;
 }
+
+.logo {
+  font-family: "Modern Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .wrapper {
     width: 90%;
     max-width: 900px;
@@ -18,8 +25,9 @@ html {
     text-align: left;
 }
 
+
 .logo a {
-    color: #e6e3df;
+    color: #8d8c8e;
     text-decoration: none;
     font-size: 32px;
     font-weight: 700;
@@ -40,10 +48,12 @@ html {
     color: #8d8c8e;
     text-decoration: none;
     font-size: 18px;
-    font-family: serif;
     padding: 8px 16px;
     border: 1px solid #8d8c8e;
     border-radius: 6px;
+    font-family: "Macondo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .nav-button:hover {
