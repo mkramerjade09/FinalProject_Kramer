@@ -27,7 +27,7 @@ html {
 
 
 .logo a {
-    color: #8d8c8e;
+    color: #DFD5B9;
     text-decoration: none;
     font-size: 32px;
     font-weight: 700;
@@ -45,11 +45,11 @@ html {
 }
 
 .nav-button {
-    color: #8d8c8e;
+    color: #DFD5B9;
     text-decoration: none;
     font-size: 18px;
     padding: 8px 16px;
-    border: 1px solid #8d8c8e;
+    border: 1px solid #DFD5B9;
     border-radius: 6px;
     font-family: "Macondo Swash Caps", cursive;
     font-weight: 400;
@@ -57,7 +57,7 @@ html {
 }
 
 .nav-button:hover {
-    background: #8d8c8e;
+    background: #DFD5B9;
     color: #160903;
 }
 
@@ -91,11 +91,15 @@ html {
 
 .content-wrapper {
     position: relative;
-    width: fit-content;
+    width: 100%;          
+    max-width: 1300px;  
 }
 
 .background-image {
     position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .background-image img {
@@ -141,6 +145,17 @@ html {
     left: 77%;
 }
 
+
 .image-buttons img {
-    width: 310px;
+    height: auto;
+    max-height: 240px; 
+    width: auto;   
+    transition: transform 0.3s ease;    
 }
+
+.image-buttons a:hover img {
+    transform: scale(1.1); 
+    z-index: 2; 
+}
+
+

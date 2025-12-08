@@ -7,12 +7,14 @@ html {
 
 html, body {
     background-color: #160903;
-    color: #8d8c8e;
+    color: #DFD5B9;
     font-family: serif;
     line-height: 1.5;
     font-family: "Macondo Swash Caps", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-size: large;
+    font-style: normal;
+  
+    
 }
 
 .wrapper {
@@ -37,7 +39,7 @@ html, body {
 }
 
 .logo a {
-    color: #8d8c8e;
+    color: #DFD5B9;
     text-decoration: none;
     font-size: 32px;
     font-weight: 700;
@@ -55,22 +57,22 @@ html, body {
 }
 
 .nav-list a {
-    color: #8d8c8e;
+    color: #DFD5B9;
     text-decoration: none;
     font-size: 18px;
     padding: 8px 14px;
-    border: 1px solid #8d8c8e;
+    border: 1px solid #DFD5B9;
     border-radius: 6px;
     transition: 0.3s;
 }
 
 .nav-list a:hover {
-    background: #8d8c8e;
+    background: #DFD5B9;
     color: #160903;
 }
 
 .nav-list .active {
-    background: #8d8c8e;
+    background: #DFD5B9;
     color: #160903;
 }
 
@@ -82,18 +84,19 @@ html, body {
     font-size: 28px;
     text-align: center;
     margin-bottom: 20px;
-    color: #8d8c8e;
+    color: #DFD5B9;
 }
 
 .about-section p {
     margin-bottom: 20px;
     font-size: 18px;
-    color: #8d8c8e;
+    color: #DFD5B9;
 }
 
 .main-content {
-    background-color: #8d8c8e;
-    padding: 20px;
+    background-color: #DFD5B9;
+    padding: 50px;
+    text-align: center;
 }
 
 .main-content p {

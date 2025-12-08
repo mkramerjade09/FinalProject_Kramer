@@ -1,6 +1,6 @@
 .plant-page {
     margin-top: 40px;
-    background-color: #8d8c8e;
+    background-color: #DFD5B9;
     padding: 30px;
     border-radius: 10px;
     color: #160903;
@@ -14,6 +14,7 @@
     font-family: "Modern Antiqua", serif;
     font-weight: 600;
     font-style: normal;
+
 }
 
 .plant-content {
@@ -39,17 +40,23 @@
 .plant-image {
     width: 300px;
     border-color: #160903;
-    background-color: #db5a1e;
-    padding: 30px 0;
+    background-color: #3B4B59;
+    padding: 15px 0;
+    border-radius: 10px;
 }
 
 .local-nav {
     display: flex;
     justify-content: center;
-    gap: 30px 30px 0 30px;
-    padding: 10px 0 0 0;
-    background-color: #db5a1e; 
+    gap: 30px;
+    padding: 10px 0;
+    background-image: url("images/bgplainn.png"); 
+    background-size: cover;   
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
 }
+
 .local-nav img {
     width: 110px;       
     transition: 0.3s;
@@ -62,4 +69,27 @@
 a {
     margin: 0;
     padding: 0;
+}
+
+.plant-image-frame {
+     background-image: url("images/bgplainn.png");
+    background-size: cover;       
+    background-position: center;    
+    padding: 20px;
+    border: 12px solid #3A1C11;     
+    border-radius: 8px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+.plant-image {
+    width: 300px;
+    display: block;
+}
+
+.ornament {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 8px;
 }
