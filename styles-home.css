@@ -122,29 +122,48 @@ html {
 
 .button-one {
     top: 17%;
-    left: 65%;
+    left: 40%;
 }
 
 .button-two {
     top: 17%;
-    left: 50%;
+    left: 55%;
 }
 
 .button-three {
     top: 56%;
-    left: 56%;
+    left: 55%;
 }
 
 .button-four {
     top: 56%;
-    left: 20%;
+    left: 30%;
 }
 
 .button-five {
     top: 56%;
-    left: 77%;
+    left: 85%;
 }
 
+.button-six {
+    top: 17%;
+    left: 70%;
+}
+
+.button-seven {
+    top: 17%;
+    left: 15%;
+}
+
+.button-eight {
+    top: 56%;
+    left: 10%;
+}
+
+.button-nine {
+    top: 56%;
+    left: 70%;
+}
 
 .image-buttons img {
     height: auto;

@@ -48,17 +48,17 @@
 .local-nav {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 5px;
     padding: 10px 0;
     background-image: url("images/bgplainn.png"); 
     background-size: cover;   
     background-position: center;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
 .local-nav img {
-    width: 110px;       
+    width: 90px;       
     transition: 0.3s;
 }
 
